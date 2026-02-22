@@ -10,7 +10,7 @@ interface MenuItemProps {
   imageAlt: string;
 }
 
-export default function MenuItem({ name, description, price, imageAlt }: MenuItemProps) {
+export default function MenuItem({ name, description, price, image, imageAlt }: MenuItemProps) {
   return (
     <motion.article
       initial={{ opacity: 0, y: 20 }}
@@ -19,14 +19,13 @@ export default function MenuItem({ name, description, price, imageAlt }: MenuIte
       transition={{ duration: 0.4 }}
       className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:scale-[1.02] flex flex-col"
     >
-      {/* Image placeholder */}
-      {/* TODO: Replace with real image using next/image */}
-      <div
-        className="bg-[#f3a42a] aspect-[4/3] flex items-center justify-center"
-        role="img"
-        aria-label={`Placeholder for ${imageAlt}`}
-      >
-        <span className="text-[#1a1a20] font-bold text-sm text-center px-4">{imageAlt}</span>
+      <div className="aspect-[4/3] overflow-hidden bg-[#f3a42a]">
+        <img
+          src={image}
+          alt={imageAlt}
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
       </div>
 
       <div className="p-4 flex flex-col flex-1">

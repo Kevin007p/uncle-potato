@@ -1,147 +1,307 @@
 {
   "categories": [
     {
-      "id": "burgers",
-      "name_en": "Burgers",
-      "name_fr": "Burgers",
+      "id": "signature-potatoes",
+      "name_en": "Uncle's Signature Potatoes",
+      "name_fr": "Les Patates Signature d'Oncle",
       "items": [
         {
-          "id": "classic-burger",
-          "name_en": "Classic Burger",
-          "name_fr": "Burger Classique",
-          "description_en": "Juicy halal beef patty with fresh lettuce, tomato, pickles, and our signature sauce on a toasted brioche bun",
-          "description_fr": "Galette de bœuf halal juteuse avec laitue fraîche, tomate, cornichons et notre sauce signature sur un pain brioche grillé",
+          "id": "potato-classique",
+          "name_en": "Uncle's Potato Classique",
+          "name_fr": "Patate Classique d'Oncle",
+          "description_en": "Our classic loaded baked potato with all the essentials — a signature Uncle Potato favourite",
+          "description_fr": "Notre classique pomme de terre garnie avec tous les essentiels — un favori signature d'Oncle Patate",
+          "price": 14.99,
+          "image": "/images/menu/19_uncle_potato_classique.jpg",
+          "featured": true
+        },
+        {
+          "id": "potato-poulet-frit",
+          "name_en": "Uncle's Potato Poulet Frit",
+          "name_fr": "Patate Poulet Frit d'Oncle",
+          "description_en": "Loaded baked potato topped with crispy fried chicken and our signature sauce",
+          "description_fr": "Pomme de terre garnie de poulet frit croustillant et notre sauce signature",
+          "price": 21.99,
+          "image": "/images/menu/02__uncle_s_potato_poulet_frit.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-supreme-poulet",
+          "name_en": "Uncle's Potato Suprême Poulet",
+          "name_fr": "Patate Suprême Poulet d'Oncle",
+          "description_en": "A supreme baked potato loaded with tender chicken, cheese, and fresh toppings",
+          "description_fr": "Une pomme de terre suprême garnie de poulet tendre, fromage et garnitures fraîches",
+          "price": 20.99,
+          "image": "/images/menu/03__uncle_s_potato_supreme_poulet.jpg",
+          "featured": true
+        },
+        {
+          "id": "potato-cheese-mushroom",
+          "name_en": "Uncle's Potato Cheese Mushroom",
+          "name_fr": "Patate Fromage Champignons d'Oncle",
+          "description_en": "Baked potato smothered in melted cheese and sautéed mushrooms",
+          "description_fr": "Pomme de terre nappée de fromage fondu et champignons sautés",
+          "price": 18.99,
+          "image": "/images/menu/05_uncle_s_potato_cheese_mushroom.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-dynamite",
+          "name_en": "Uncle's Potato Dynamite",
+          "name_fr": "Patate Dynamite d'Oncle",
+          "description_en": "An explosive loaded potato with spicy toppings and our dynamite sauce",
+          "description_fr": "Une pomme de terre explosive avec garnitures épicées et notre sauce dynamite",
+          "price": 21.99,
+          "image": "/images/menu/07_uncle_s_potato_dynamite.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-mexicano",
+          "name_en": "Uncle's Potato Mexicano",
+          "name_fr": "Patate Mexicano d'Oncle",
+          "description_en": "Mexican-inspired loaded potato with spiced toppings and zesty flavours",
+          "description_fr": "Pomme de terre d'inspiration mexicaine avec garnitures épicées et saveurs relevées",
+          "price": 17.99,
+          "image": "/images/menu/20_uncle_s_potato_mexicano.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-chili-bean",
+          "name_en": "Uncle's Potato Chili Bean",
+          "name_fr": "Patate Chili Bean d'Oncle",
+          "description_en": "Hearty baked potato topped with chili beans, cheese, and fresh garnishes",
+          "description_fr": "Pomme de terre copieuse garnie de haricots chili, fromage et garnitures fraîches",
+          "price": 19.99,
+          "image": "/images/menu/21_uncle_s_potato_chili_bean.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-chicago",
+          "name_en": "Uncle's Potato Chicago",
+          "name_fr": "Patate Chicago d'Oncle",
+          "description_en": "Chicago-style loaded potato with bold toppings and rich flavours",
+          "description_fr": "Pomme de terre style Chicago avec garnitures audacieuses et saveurs riches",
+          "price": 16.99,
+          "image": "/images/menu/22_uncle_s_potato_chicago.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-top-dog",
+          "name_en": "Uncle's Potato Top Dog",
+          "name_fr": "Patate Top Dog d'Oncle",
+          "description_en": "Our top dog loaded potato — packed with premium toppings and signature sauce",
+          "description_fr": "Notre pomme de terre top dog — garnie de garnitures premium et sauce signature",
+          "price": 19.99,
+          "image": "/images/menu/23_uncle_s_potato_top_dog.jpg",
+          "featured": false
+        },
+        {
+          "id": "potato-mac-mountain",
+          "name_en": "Uncle's Potato Mac Mountain",
+          "name_fr": "Patate Mac Mountain d'Oncle",
+          "description_en": "A mountain of mac & cheese on a perfectly baked potato — comfort food at its best",
+          "description_fr": "Une montagne de mac & cheese sur une pomme de terre parfaitement cuite — le comfort food à son meilleur",
+          "price": 17.99,
+          "image": "/images/menu/14_uncle_potato_mac_mountain.jpg",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "id": "beef-burgers",
+      "name_en": "Uncle's Beef Burgers",
+      "name_fr": "Les Burgers Bœuf d'Oncle",
+      "items": [
+        {
+          "id": "uncle-burger",
+          "name_en": "Uncle Burger",
+          "name_fr": "Uncle Burger",
+          "description_en": "Our signature halal beef burger with fresh toppings and house sauce",
+          "description_fr": "Notre burger signature au bœuf halal avec garnitures fraîches et sauce maison",
+          "price": 21.99,
+          "image": "/images/menu/04__uncle_burger.jpg",
+          "featured": true
+        },
+        {
+          "id": "texas-style-burger",
+          "name_en": "Texas Style Burger",
+          "name_fr": "Burger Style Texas",
+          "description_en": "A bold Texas-style burger with smoky BBQ flavours and crispy onion rings",
+          "description_fr": "Un burger audacieux style Texas avec saveurs BBQ fumées et rondelles d'oignon croustillantes",
+          "price": 19.99,
+          "image": "/images/menu/09_texas_style_burger.jpg",
+          "featured": false
+        },
+        {
+          "id": "burger-oignon-caramelise",
+          "name_en": "Caramelized Onion Burger",
+          "name_fr": "Burger Oignon Caramélisé",
+          "description_en": "Juicy halal beef patty topped with sweet caramelized onions and melted cheese",
+          "description_fr": "Galette de bœuf halal juteuse garnie d'oignons caramélisés sucrés et fromage fondu",
           "price": 12.99,
-          "image": "/images/menu/placeholder-burger.png",
+          "image": "/images/menu/13_burger_oignon_caram_lis_.jpg",
+          "featured": false
+        },
+        {
+          "id": "double-smash-burger",
+          "name_en": "Double Smash Burger",
+          "name_fr": "Double Smash Burger",
+          "description_en": "Two smashed halal beef patties with crispy edges, cheese, and special sauce",
+          "description_fr": "Deux galettes de bœuf halal smashées avec bords croustillants, fromage et sauce spéciale",
+          "price": 16.99,
+          "image": "/images/menu/17_double_smash_burger.jpg",
           "featured": true
         },
         {
-          "id": "cheese-burger",
-          "name_en": "Cheese Burger",
-          "name_fr": "Burger au Fromage",
-          "description_en": "Our classic burger topped with melted cheddar cheese for that extra richness",
-          "description_fr": "Notre burger classique garni de fromage cheddar fondu pour une richesse supplémentaire",
-          "price": 14.49,
-          "image": "/images/menu/placeholder-burger.png",
-          "featured": true
+          "id": "smash-burger",
+          "name_en": "Smash Burger",
+          "name_fr": "Smash Burger",
+          "description_en": "A single smashed halal beef patty with crispy edges and classic toppings",
+          "description_fr": "Une galette de bœuf halal smashée avec bords croustillants et garnitures classiques",
+          "price": 16.99,
+          "image": "/images/menu/24_smash_burger.jpg",
+          "featured": false
         },
         {
-          "id": "spicy-burger",
-          "name_en": "Spicy Burger",
-          "name_fr": "Burger Épicé",
-          "description_en": "Halal beef patty with jalapeños, spicy mayo, and pepper jack cheese — for those who like it hot",
-          "description_fr": "Galette de bœuf halal avec jalapeños, mayo épicée et fromage pepper jack — pour ceux qui aiment ça piquant",
-          "price": 15.49,
-          "image": "/images/menu/placeholder-burger.png",
+          "id": "cheese-mushroom-burger",
+          "name_en": "Cheese Mushroom Burger",
+          "name_fr": "Burger Fromage Champignons",
+          "description_en": "Halal beef burger loaded with melted cheese and sautéed mushrooms",
+          "description_fr": "Burger au bœuf halal garni de fromage fondu et champignons sautés",
+          "price": 17.99,
+          "image": "/images/menu/25_cheese_mushroom.jpg",
           "featured": false
         }
       ]
     },
     {
-      "id": "baked-potatoes",
-      "name_en": "Baked Potatoes",
-      "name_fr": "Pommes de Terre au Four",
+      "id": "chicken-burgers",
+      "name_en": "Uncle's Chicken Burgers",
+      "name_fr": "Les Burgers Poulet d'Oncle",
       "items": [
         {
-          "id": "loaded-potato",
-          "name_en": "Loaded Baked Potato",
-          "name_fr": "Pomme de Terre Garnie",
-          "description_en": "Crispy baked potato loaded with cheese, sour cream, green onions, and bacon bits",
-          "description_fr": "Pomme de terre croustillante garnie de fromage, crème sure, oignons verts et morceaux de bacon",
-          "price": 10.99,
-          "image": "/images/menu/placeholder-potato.png",
+          "id": "poulet-frit-burger",
+          "name_en": "Fried Chicken Burger",
+          "name_fr": "Burger Poulet Frit",
+          "description_en": "Crispy fried halal chicken with fresh toppings on a toasted bun",
+          "description_fr": "Poulet halal frit croustillant avec garnitures fraîches sur un pain grillé",
+          "price": 18.99,
+          "image": "/images/menu/10_poulet_frit_burger.jpg",
           "featured": true
-        },
-        {
-          "id": "butter-potato",
-          "name_en": "Butter & Herb Potato",
-          "name_fr": "Pomme de Terre Beurre et Fines Herbes",
-          "description_en": "Fluffy baked potato with garlic butter, fresh herbs, and a sprinkle of sea salt",
-          "description_fr": "Pomme de terre moelleuse avec beurre à l'ail, fines herbes fraîches et une pincée de sel de mer",
-          "price": 8.99,
-          "image": "/images/menu/placeholder-potato.png",
-          "featured": false
         }
       ]
     },
     {
-      "id": "chicken-tenders",
-      "name_en": "Chicken Tenders",
-      "name_fr": "Filets de Poulet",
+      "id": "phillys",
+      "name_en": "Uncle's Phillys",
+      "name_fr": "Les Phillys d'Oncle",
       "items": [
         {
-          "id": "classic-tenders",
-          "name_en": "Classic Chicken Tenders (6pc)",
-          "name_fr": "Filets de Poulet Classiques (6 mcx)",
-          "description_en": "Crispy golden halal chicken tenders served with your choice of dipping sauce",
-          "description_fr": "Filets de poulet halal croustillants dorés servis avec votre choix de sauce",
-          "price": 11.99,
-          "image": "/images/menu/placeholder-chicken.png",
+          "id": "philly-steak-1",
+          "name_en": "Uncle Potato Philly Steak",
+          "name_fr": "Philly Steak Uncle Potato",
+          "description_en": "Tender sliced steak with melted cheese, peppers, and onions in a soft roll",
+          "description_fr": "Steak tranché tendre avec fromage fondu, poivrons et oignons dans un pain moelleux",
+          "price": 19.99,
+          "image": "/images/menu/11_uncle_potato_philly_steak.jpg",
           "featured": true
         },
         {
-          "id": "spicy-tenders",
-          "name_en": "Spicy Chicken Tenders (6pc)",
-          "name_fr": "Filets de Poulet Épicés (6 mcx)",
-          "description_en": "Our classic tenders with a spicy kick, served with cooling ranch dipping sauce",
-          "description_fr": "Nos filets classiques avec une touche épicée, servis avec sauce ranch rafraîchissante",
+          "id": "philly-boeuf",
+          "name_en": "Philly Boeuf",
+          "name_fr": "Philly Bœuf",
+          "description_en": "Classic Philly-style halal beef with melted cheese and grilled vegetables",
+          "description_fr": "Bœuf halal classique style Philly avec fromage fondu et légumes grillés",
+          "price": 21.99,
+          "image": "/images/menu/12_philly_boeuf.jpg",
+          "featured": false
+        },
+        {
+          "id": "philly-steak-2",
+          "name_en": "Philly Steak",
+          "name_fr": "Philly Steak",
+          "description_en": "Our signature Philly steak loaded with cheese and caramelized onions",
+          "description_fr": "Notre Philly steak signature garni de fromage et oignons caramélisés",
+          "price": 19.99,
+          "image": "/images/menu/15_philly_steak.jpg",
+          "featured": false
+        },
+        {
+          "id": "philly-poulet",
+          "name_en": "Philly Poulet",
+          "name_fr": "Philly Poulet",
+          "description_en": "Grilled halal chicken Philly with melted cheese, peppers, and onions",
+          "description_fr": "Philly au poulet halal grillé avec fromage fondu, poivrons et oignons",
           "price": 12.99,
-          "image": "/images/menu/placeholder-chicken.png",
+          "image": "/images/menu/26_philly_poulet.jpg",
           "featured": false
         }
       ]
     },
     {
-      "id": "smoothies",
-      "name_en": "Smoothies",
-      "name_fr": "Smoothies",
+      "id": "shawarma",
+      "name_en": "Uncle's Shawarma",
+      "name_fr": "Les Shawarmas d'Oncle",
       "items": [
         {
-          "id": "mango-smoothie",
-          "name_en": "Mango Paradise Smoothie",
-          "name_fr": "Smoothie Paradis Mangue",
-          "description_en": "Fresh mango blended with yogurt, banana, and a splash of orange juice",
-          "description_fr": "Mangue fraîche mélangée avec yogourt, banane et un soupçon de jus d'orange",
-          "price": 7.99,
-          "image": "/images/menu/placeholder-smoothie.png",
-          "featured": false
-        },
-        {
-          "id": "strawberry-smoothie",
-          "name_en": "Strawberry Blast Smoothie",
-          "name_fr": "Smoothie Explosion Fraise",
-          "description_en": "Sweet strawberries blended with vanilla yogurt and a drizzle of honey",
-          "description_fr": "Fraises sucrées mélangées avec yogourt vanille et un filet de miel",
-          "price": 7.99,
-          "image": "/images/menu/placeholder-smoothie.png",
-          "featured": false
-        }
-      ]
-    },
-    {
-      "id": "fries",
-      "name_en": "Fries",
-      "name_fr": "Frites",
-      "items": [
-        {
-          "id": "classic-fries",
-          "name_en": "Classic Fries",
-          "name_fr": "Frites Classiques",
-          "description_en": "Golden crispy fries seasoned with our special blend of spices",
-          "description_fr": "Frites dorées et croustillantes assaisonnées avec notre mélange spécial d'épices",
-          "price": 5.99,
-          "image": "/images/menu/placeholder-fries.png",
-          "featured": false
-        },
-        {
-          "id": "loaded-fries",
-          "name_en": "Loaded Fries",
-          "name_fr": "Frites Garnies",
-          "description_en": "Our classic fries topped with cheese sauce, green onions, and our signature sauce",
-          "description_fr": "Nos frites classiques garnies de sauce au fromage, oignons verts et notre sauce signature",
-          "price": 9.99,
-          "image": "/images/menu/placeholder-fries.png",
+          "id": "crispy-shawarma",
+          "name_en": "Crispy Shawarma Poulet Grillé",
+          "name_fr": "Shawarma Croustillant Poulet Grillé",
+          "description_en": "Crispy grilled halal chicken shawarma with fresh vegetables and garlic sauce",
+          "description_fr": "Shawarma au poulet halal grillé croustillant avec légumes frais et sauce à l'ail",
+          "price": 20.99,
+          "image": "/images/menu/16_crispy_shawarma_poulet_grill_.jpg",
           "featured": true
+        },
+        {
+          "id": "uncle-shawarma",
+          "name_en": "Uncle Shawarma",
+          "name_fr": "Shawarma d'Oncle",
+          "description_en": "Our signature shawarma with marinated halal meat, pickles, and house garlic sauce",
+          "description_fr": "Notre shawarma signature avec viande halal marinée, cornichons et sauce à l'ail maison",
+          "price": 21.99,
+          "image": "/images/menu/18_uncle_shawarma.jpg",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "wraps",
+      "name_en": "Uncle's Wraps",
+      "name_fr": "Les Wraps d'Oncle",
+      "items": []
+    },
+    {
+      "id": "tenders",
+      "name_en": "Uncle's Tenders",
+      "name_fr": "Les Tenders d'Oncle",
+      "items": [
+        {
+          "id": "tenders-5",
+          "name_en": "Tenders (5 pcs)",
+          "name_fr": "Tenders (5 mcx)",
+          "description_en": "Five crispy golden halal chicken tenders served with your choice of dipping sauce",
+          "description_fr": "Cinq filets de poulet halal croustillants dorés servis avec votre choix de sauce",
+          "price": 34.99,
+          "image": "/images/menu/08_tenders_5_mcx.jpg",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "loaded-fries",
+      "name_en": "Uncle's Loaded Fries",
+      "name_fr": "Les Frites Garnies d'Oncle",
+      "items": [
+        {
+          "id": "loaded-fries-poulet",
+          "name_en": "Loaded Fries Poulet",
+          "name_fr": "Frites Garnies Poulet",
+          "description_en": "Crispy fries loaded with tender chicken, cheese sauce, and fresh toppings",
+          "description_fr": "Frites croustillantes garnies de poulet tendre, sauce au fromage et garnitures fraîches",
+          "price": 19.99,
+          "image": "/images/menu/06_loaded_fries_poulet.jpg",
+          "featured": false
         }
       ]
     }

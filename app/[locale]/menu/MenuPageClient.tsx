@@ -32,7 +32,7 @@ export default function MenuPageClient() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex gap-1 overflow-x-auto py-3">
-            {menuData.categories.map((cat) => (
+            {menuData.categories.filter((cat) => cat.items.length > 0).map((cat) => (
               <a
                 key={cat.id}
                 href={`#${cat.id}`}
@@ -47,7 +47,7 @@ export default function MenuPageClient() {
 
       {/* Menu content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
-        {menuData.categories.map((cat) => (
+        {menuData.categories.filter((cat) => cat.items.length > 0).map((cat) => (
           <MenuSection
             key={cat.id}
             id={cat.id}
