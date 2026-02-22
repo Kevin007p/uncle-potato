@@ -3,7 +3,6 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Hero from '@/components/Hero';
 import FeaturedMenu from '@/components/FeaturedMenu';
 import LocationsPreview from '@/components/LocationsPreview';
-import GalleryGrid from '@/components/GalleryGrid';
 import InstagramCTA from '@/components/InstagramCTA';
 import JsonLd from '@/components/JsonLd';
 
@@ -46,7 +45,6 @@ export default async function HomePage({ params }: HomePageProps) {
       <Hero />
       <FeaturedMenu />
       <LocationsPreview />
-      <GalleryGrid />
       <InstagramCTA />
     </>
   );

@@ -92,14 +92,6 @@ export default function Footer() {
               >
                 {tLoc('orderUberEats')} ↗
               </a>
-              <a
-                href={externalLinks.locations.cotedeneiges.skipthedishes}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-[#f3a42a] hover:underline focus:outline-none focus:ring-1 focus:ring-[#f3a42a] rounded"
-              >
-                {tLoc('orderSkip')} ↗
-              </a>
             </div>
           </div>
 

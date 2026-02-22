@@ -26,18 +26,19 @@ export default function LocationCard({ locationKey, showMap = true }: LocationCa
 
   return (
     <article className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
-      {/* Map placeholder */}
-      {showMap && (
-        <div className="bg-[#f3a42a]/20 h-48 flex items-center justify-center border-b border-gray-100">
-          {/* TODO: Replace with real Google Maps embed */}
-          <div className="text-center text-[#1a1a20]/60 px-4">
-            <svg className="w-8 h-8 mx-auto mb-2 text-[#f3a42a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-            <p className="text-sm font-medium">{t('mapsPlaceholder')}</p>
-            <p className="text-xs mt-1 opacity-60">{t('mapsTodo')}</p>
-          </div>
+      {/* Google Maps embed */}
+      {showMap && links.googleMapsEmbed && (
+        <div className="h-48 border-b border-gray-100">
+          <iframe
+            src={links.googleMapsEmbed}
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title={locationKey === 'chabanel' ? t('chabanel.name') : t('cotedeneiges.name')}
+          />
         </div>
       )}
 
@@ -88,15 +89,17 @@ export default function LocationCard({ locationKey, showMap = true }: LocationCa
             {t('orderUberEats')}
             <span className="sr-only"> (opens in new tab)</span>
           </a>
-          <a
-            href={links.skipthedishes}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 text-center border-2 border-[#1a1a20] text-[#1a1a20] font-bold py-2.5 px-4 rounded-lg text-sm hover:bg-[#1a1a20] hover:text-white transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#1a1a20]"
-          >
-            {t('orderSkip')}
-            <span className="sr-only"> (opens in new tab)</span>
-          </a>
+          {'skipthedishes' in links && (
+            <a
+              href={links.skipthedishes}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 text-center border-2 border-[#1a1a20] text-[#1a1a20] font-bold py-2.5 px-4 rounded-lg text-sm hover:bg-[#1a1a20] hover:text-white transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#1a1a20]"
+            >
+              {t('orderSkip')}
+              <span className="sr-only"> (opens in new tab)</span>
+            </a>
+          )}
         </div>
       </div>
     </article>
