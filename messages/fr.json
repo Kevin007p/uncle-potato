@@ -54,15 +54,17 @@
     "chabanel": {
       "name": "Chabanel",
       "hours": {
-        "satTue": "Sam–Mar : 16 h – 23 h",
-        "wed": "Mer : 16 h – 00 h",
-        "thuFri": "Jeu–Ven : 16 h – 23 h"
+        "line1": "Dim–Lun, Jeu–Sam : 16 h – 22 h",
+        "line2": "Mar : 16 h – 23 h",
+        "line3": "Mer : 16 h – 00 h"
       }
     },
     "cotedeneiges": {
       "name": "Côte-des-Neiges",
       "hours": {
-        "daily": "Tous les jours : 11 h 30 – 23 h"
+        "line1": "Dim–Mar : 11 h 30 – 23 h",
+        "line2": "Mer–Ven : 11 h 30 – 23 h",
+        "line3": "Sam : 11 h 30 – 23 h"
       }
     }
   },

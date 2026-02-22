@@ -47,19 +47,12 @@ export default async function AboutPage({ params }: AboutPageProps) {
           </div>
         </div>
 
-        {/* Image placeholder */}
-        {/* TODO: Replace with real restaurant image */}
-        <div
-          className="bg-[#f3a42a] rounded-2xl aspect-video flex items-center justify-center mb-12"
-          role="img"
-          aria-label={t('imagePlaceholder')}
-        >
-          <div className="text-center text-[#1a1a20]">
-            <div className="text-5xl mb-3" aria-hidden="true">🏪</div>
-            <p className="font-bold text-xl">{t('imagePlaceholder')}</p>
-            <p className="text-sm mt-1 opacity-70">TODO: Replace with real photo</p>
-          </div>
-        </div>
+        {/* Restaurant interior photo */}
+        <img
+          src="/images/interior.jpg"
+          alt={t('imagePlaceholder')}
+          className="rounded-2xl w-full aspect-video object-cover mb-12"
+        />
 
         {/* Body copy */}
         <div className="space-y-6">

@@ -10,11 +10,15 @@ interface LocationCardProps {
 
 const hoursData = {
   chabanel: [
-    { key: 'chabanel.hours.satTue' as const },
-    { key: 'chabanel.hours.wed' as const },
-    { key: 'chabanel.hours.thuFri' as const },
+    { key: 'chabanel.hours.line1' as const },
+    { key: 'chabanel.hours.line2' as const },
+    { key: 'chabanel.hours.line3' as const },
   ],
-  cotedeneiges: [{ key: 'cotedeneiges.hours.daily' as const }],
+  cotedeneiges: [
+    { key: 'cotedeneiges.hours.line1' as const },
+    { key: 'cotedeneiges.hours.line2' as const },
+    { key: 'cotedeneiges.hours.line3' as const },
+  ],
 };
 
 export default function LocationCard({ locationKey, showMap = true }: LocationCardProps) {

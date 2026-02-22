@@ -42,9 +42,9 @@ export default function Footer() {
               </p>
             </address>
             <div className="mt-2 text-sm text-white/60 space-y-0.5">
-              <p>{tLoc('chabanel.hours.satTue')}</p>
-              <p>{tLoc('chabanel.hours.wed')}</p>
-              <p>{tLoc('chabanel.hours.thuFri')}</p>
+              <p>{tLoc('chabanel.hours.line1')}</p>
+              <p>{tLoc('chabanel.hours.line2')}</p>
+              <p>{tLoc('chabanel.hours.line3')}</p>
             </div>
             <div className="mt-3 flex flex-col gap-1">
               <a
@@ -80,8 +80,10 @@ export default function Footer() {
                 </a>
               </p>
             </address>
-            <div className="mt-2 text-sm text-white/60">
-              <p>{tLoc('cotedeneiges.hours.daily')}</p>
+            <div className="mt-2 text-sm text-white/60 space-y-0.5">
+              <p>{tLoc('cotedeneiges.hours.line1')}</p>
+              <p>{tLoc('cotedeneiges.hours.line2')}</p>
+              <p>{tLoc('cotedeneiges.hours.line3')}</p>
             </div>
             <div className="mt-3 flex flex-col gap-1">
               <a

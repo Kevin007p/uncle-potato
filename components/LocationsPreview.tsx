@@ -16,7 +16,7 @@ export default function LocationsPreview() {
       address: siteConfig.locations.chabanel.address,
       phone: siteConfig.locations.chabanel.phone,
       phoneHref: siteConfig.locations.chabanel.phoneHref,
-      hours: [tLoc('chabanel.hours.satTue'), tLoc('chabanel.hours.wed'), tLoc('chabanel.hours.thuFri')],
+      hours: [tLoc('chabanel.hours.line1'), tLoc('chabanel.hours.line2'), tLoc('chabanel.hours.line3')],
       ubereats: externalLinks.locations.chabanel.ubereats,
     },
     {
@@ -25,7 +25,7 @@ export default function LocationsPreview() {
       address: siteConfig.locations.cotedeneiges.address,
       phone: siteConfig.locations.cotedeneiges.phone,
       phoneHref: siteConfig.locations.cotedeneiges.phoneHref,
-      hours: [tLoc('cotedeneiges.hours.daily')],
+      hours: [tLoc('cotedeneiges.hours.line1'), tLoc('cotedeneiges.hours.line2'), tLoc('cotedeneiges.hours.line3')],
       ubereats: externalLinks.locations.cotedeneiges.ubereats,
     },
   ];

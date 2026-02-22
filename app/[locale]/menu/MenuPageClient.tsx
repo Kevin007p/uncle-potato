@@ -27,16 +27,16 @@ export default function MenuPageClient() {
 
       {/* Sticky category navigation */}
       <nav
-        className="sticky top-16 z-20 bg-white border-b border-gray-200 shadow-sm"
+        className="sticky top-16 z-20 bg-white border-b border-gray-100"
         aria-label="Menu categories"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex gap-1 overflow-x-auto py-3">
+          <div className="flex gap-2 overflow-x-auto py-3 scrollbar-hide">
             {menuData.categories.filter((cat) => cat.items.length > 0).map((cat) => (
               <a
                 key={cat.id}
                 href={`#${cat.id}`}
-                className="flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold text-gray-600 hover:bg-[#f3a42a] hover:text-[#1a1a20] transition-colors focus:outline-none focus:ring-2 focus:ring-[#f3a42a] whitespace-nowrap"
+                className="flex-shrink-0 px-5 py-2 rounded-full text-sm font-semibold text-[#1a1a20]/70 bg-gray-100 hover:bg-[#f3a42a] hover:text-[#1a1a20] transition-all focus:outline-none focus:ring-2 focus:ring-[#f3a42a] whitespace-nowrap"
               >
                 {locale === 'fr' ? cat.name_fr : cat.name_en}
               </a>
@@ -57,7 +57,6 @@ export default function MenuPageClient() {
           />
         ))}
 
-        <p className="text-center text-sm text-gray-400 pb-4">{t('beforeTax')}</p>
       </div>
     </div>
   );
