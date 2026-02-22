@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "locations": "Locations",
+    "about": "About",
+    "orderNow": "Order Now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content",
+    "home": "Uncle Potato"
+  },
+  "lang": {
+    "toggle": "FR",
+    "switchTo": "Switch to French",
+    "current": "EN"
+  },
+  "home": {
+    "title": "Uncle Potato | Best Halal Burgers & Fast Food in Montreal",
+    "description": "Uncle Potato (Oncle Patate) - Montreal's favorite halal fast food. Fresh burgers, baked potatoes, chicken tenders, smoothies & fries. Order now on UberEats or SkipTheDishes.",
+    "heroTagline": "Montreal's Favorite Fast Food",
+    "heroSubtitle": "100% HALAL • Fresh Ingredients • Two Locations",
+    "orderUberEats": "Order on UberEats",
+    "orderSkip": "Order on SkipTheDishes",
+    "featuredTitle": "Popular Items",
+    "featuredSubtitle": "Try our most-loved dishes",
+    "viewFullMenu": "View Full Menu",
+    "locationsTitle": "Our Locations",
+    "viewAllLocations": "View All Locations",
+    "galleryTitle": "Our Food",
+    "gallerySubtitle": "Fresh, halal, and made with love",
+    "instagramTitle": "Follow Us on Instagram",
+    "instagramSubtitle": "See our latest dishes and updates",
+    "followInstagram": "Follow @uncle_potato_officielle"
+  },
+  "menu": {
+    "title": "Our Menu | Uncle Potato",
+    "description": "Explore our full halal menu — burgers, baked potatoes, chicken tenders, smoothies, and fries. Fresh ingredients, great taste.",
+    "heading": "Our Menu",
+    "subtitle": "Fresh, halal ingredients in every dish",
+    "beforeTax": "Before tax"
+  },
+  "locations": {
+    "title": "Our Locations | Uncle Potato",
+    "description": "Visit Uncle Potato at our two Montreal locations: Chabanel and Cote-des-Neiges. Find our address, hours, and order online.",
+    "heading": "Our Locations",
+    "subtitle": "Two locations serving Montreal",
+    "hours": "Hours",
+    "phone": "Phone",
+    "address": "Address",
+    "orderUberEats": "Order on UberEats",
+    "orderSkip": "Order on SkipTheDishes",
+    "mapsPlaceholder": "Google Maps Embed",
+    "mapsTodo": "TODO: Replace with real Google Maps embed URL",
+    "chabanel": {
+      "name": "Chabanel",
+      "hours": {
+        "satTue": "Sat–Tue: 4:00 PM – 11:00 PM",
+        "wed": "Wed: 4:00 PM – 12:00 AM",
+        "thuFri": "Thu–Fri: 4:00 PM – 11:00 PM"
+      }
+    },
+    "cotedeneiges": {
+      "name": "Côte-des-Neiges",
+      "hours": {
+        "daily": "Daily: 11:30 AM – 11:00 PM"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us | Uncle Potato",
+    "description": "Learn about Uncle Potato (Oncle Patate), Montreal's favorite 100% HALAL fast food restaurant serving fresh burgers, baked potatoes, and more from two locations.",
+    "heading": "About Us",
+    "subtitle": "Montreal's Favorite Halal Fast Food",
+    "para1": "Welcome to Uncle Potato — where every bite is crafted with care, every ingredient is 100% HALAL certified, and every visit feels like family. Born in the heart of Montreal, we set out to prove that fast food could be both delicious and made with integrity.",
+    "para2": "From our signature juicy burgers and perfectly baked potatoes to our crispy chicken tenders, refreshing smoothies, and golden fries, every item on our menu is made fresh using quality ingredients. We take pride in serving the Montreal community from our two locations in Chabanel and Côte-des-Neiges.",
+    "para3": "As a proudly HALAL-certified restaurant, we believe everyone deserves access to food that tastes great and meets their values. Come visit us — we can't wait to serve you.",
+    "visitUs": "Visit Our Locations",
+    "halalBadge": "100% HALAL Certified",
+    "imagePlaceholder": "Uncle Potato restaurant interior"
+  },
+  "footer": {
+    "copyright": "© 2025 Uncle Potato / Oncle Patate. All rights reserved.",
+    "locations": "Locations",
+    "delivery": "Order Online",
+    "follow": "Follow Us",
+    "hours": "Hours"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Sorry, the page you're looking for doesn't exist.",
+    "goHome": "Go Home"
+  },
+  "common": {
+    "halal": "HALAL",
+    "montreal": "Montreal",
+    "newTab": "Opens in new tab"
+  }
+}

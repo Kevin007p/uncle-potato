@@ -1,0 +1,149 @@
+{
+  "categories": [
+    {
+      "id": "burgers",
+      "name_en": "Burgers",
+      "name_fr": "Burgers",
+      "items": [
+        {
+          "id": "classic-burger",
+          "name_en": "Classic Burger",
+          "name_fr": "Burger Classique",
+          "description_en": "Juicy halal beef patty with fresh lettuce, tomato, pickles, and our signature sauce on a toasted brioche bun",
+          "description_fr": "Galette de bœuf halal juteuse avec laitue fraîche, tomate, cornichons et notre sauce signature sur un pain brioche grillé",
+          "price": 12.99,
+          "image": "/images/menu/placeholder-burger.png",
+          "featured": true
+        },
+        {
+          "id": "cheese-burger",
+          "name_en": "Cheese Burger",
+          "name_fr": "Burger au Fromage",
+          "description_en": "Our classic burger topped with melted cheddar cheese for that extra richness",
+          "description_fr": "Notre burger classique garni de fromage cheddar fondu pour une richesse supplémentaire",
+          "price": 14.49,
+          "image": "/images/menu/placeholder-burger.png",
+          "featured": true
+        },
+        {
+          "id": "spicy-burger",
+          "name_en": "Spicy Burger",
+          "name_fr": "Burger Épicé",
+          "description_en": "Halal beef patty with jalapeños, spicy mayo, and pepper jack cheese — for those who like it hot",
+          "description_fr": "Galette de bœuf halal avec jalapeños, mayo épicée et fromage pepper jack — pour ceux qui aiment ça piquant",
+          "price": 15.49,
+          "image": "/images/menu/placeholder-burger.png",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "baked-potatoes",
+      "name_en": "Baked Potatoes",
+      "name_fr": "Pommes de Terre au Four",
+      "items": [
+        {
+          "id": "loaded-potato",
+          "name_en": "Loaded Baked Potato",
+          "name_fr": "Pomme de Terre Garnie",
+          "description_en": "Crispy baked potato loaded with cheese, sour cream, green onions, and bacon bits",
+          "description_fr": "Pomme de terre croustillante garnie de fromage, crème sure, oignons verts et morceaux de bacon",
+          "price": 10.99,
+          "image": "/images/menu/placeholder-potato.png",
+          "featured": true
+        },
+        {
+          "id": "butter-potato",
+          "name_en": "Butter & Herb Potato",
+          "name_fr": "Pomme de Terre Beurre et Fines Herbes",
+          "description_en": "Fluffy baked potato with garlic butter, fresh herbs, and a sprinkle of sea salt",
+          "description_fr": "Pomme de terre moelleuse avec beurre à l'ail, fines herbes fraîches et une pincée de sel de mer",
+          "price": 8.99,
+          "image": "/images/menu/placeholder-potato.png",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "chicken-tenders",
+      "name_en": "Chicken Tenders",
+      "name_fr": "Filets de Poulet",
+      "items": [
+        {
+          "id": "classic-tenders",
+          "name_en": "Classic Chicken Tenders (6pc)",
+          "name_fr": "Filets de Poulet Classiques (6 mcx)",
+          "description_en": "Crispy golden halal chicken tenders served with your choice of dipping sauce",
+          "description_fr": "Filets de poulet halal croustillants dorés servis avec votre choix de sauce",
+          "price": 11.99,
+          "image": "/images/menu/placeholder-chicken.png",
+          "featured": true
+        },
+        {
+          "id": "spicy-tenders",
+          "name_en": "Spicy Chicken Tenders (6pc)",
+          "name_fr": "Filets de Poulet Épicés (6 mcx)",
+          "description_en": "Our classic tenders with a spicy kick, served with cooling ranch dipping sauce",
+          "description_fr": "Nos filets classiques avec une touche épicée, servis avec sauce ranch rafraîchissante",
+          "price": 12.99,
+          "image": "/images/menu/placeholder-chicken.png",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "smoothies",
+      "name_en": "Smoothies",
+      "name_fr": "Smoothies",
+      "items": [
+        {
+          "id": "mango-smoothie",
+          "name_en": "Mango Paradise Smoothie",
+          "name_fr": "Smoothie Paradis Mangue",
+          "description_en": "Fresh mango blended with yogurt, banana, and a splash of orange juice",
+          "description_fr": "Mangue fraîche mélangée avec yogourt, banane et un soupçon de jus d'orange",
+          "price": 7.99,
+          "image": "/images/menu/placeholder-smoothie.png",
+          "featured": false
+        },
+        {
+          "id": "strawberry-smoothie",
+          "name_en": "Strawberry Blast Smoothie",
+          "name_fr": "Smoothie Explosion Fraise",
+          "description_en": "Sweet strawberries blended with vanilla yogurt and a drizzle of honey",
+          "description_fr": "Fraises sucrées mélangées avec yogourt vanille et un filet de miel",
+          "price": 7.99,
+          "image": "/images/menu/placeholder-smoothie.png",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "fries",
+      "name_en": "Fries",
+      "name_fr": "Frites",
+      "items": [
+        {
+          "id": "classic-fries",
+          "name_en": "Classic Fries",
+          "name_fr": "Frites Classiques",
+          "description_en": "Golden crispy fries seasoned with our special blend of spices",
+          "description_fr": "Frites dorées et croustillantes assaisonnées avec notre mélange spécial d'épices",
+          "price": 5.99,
+          "image": "/images/menu/placeholder-fries.png",
+          "featured": false
+        },
+        {
+          "id": "loaded-fries",
+          "name_en": "Loaded Fries",
+          "name_fr": "Frites Garnies",
+          "description_en": "Our classic fries topped with cheese sauce, green onions, and our signature sauce",
+          "description_fr": "Nos frites classiques garnies de sauce au fromage, oignons verts et notre sauce signature",
+          "price": 9.99,
+          "image": "/images/menu/placeholder-fries.png",
+          "featured": true
+        }
+      ]
+    }
+  ]
+}

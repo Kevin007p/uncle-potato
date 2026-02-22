@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "locations": "Emplacements",
+    "about": "À Propos",
+    "orderNow": "Commander",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "skipToContent": "Aller au contenu",
+    "home": "Oncle Patate"
+  },
+  "lang": {
+    "toggle": "EN",
+    "switchTo": "Passer en anglais",
+    "current": "FR"
+  },
+  "home": {
+    "title": "Oncle Patate | Meilleurs Burgers Halal & Fast-Food à Montréal",
+    "description": "Oncle Patate (Uncle Potato) - Le fast-food halal préféré de Montréal. Burgers frais, pommes de terre au four, filets de poulet, smoothies et frites. Commandez sur UberEats ou SkipTheDishes.",
+    "heroTagline": "Le Fast-Food Préféré de Montréal",
+    "heroSubtitle": "100% HALAL • Ingrédients Frais • Deux Emplacements",
+    "orderUberEats": "Commander sur UberEats",
+    "orderSkip": "Commander sur SkipTheDishes",
+    "featuredTitle": "Articles Populaires",
+    "featuredSubtitle": "Essayez nos plats les plus appréciés",
+    "viewFullMenu": "Voir le Menu Complet",
+    "locationsTitle": "Nos Emplacements",
+    "viewAllLocations": "Voir Tous les Emplacements",
+    "galleryTitle": "Notre Cuisine",
+    "gallerySubtitle": "Frais, halal et fait avec amour",
+    "instagramTitle": "Suivez-Nous sur Instagram",
+    "instagramSubtitle": "Découvrez nos derniers plats et mises à jour",
+    "followInstagram": "Suivre @uncle_potato_officielle"
+  },
+  "menu": {
+    "title": "Notre Menu | Oncle Patate",
+    "description": "Explorez notre menu halal complet — burgers, pommes de terre au four, filets de poulet, smoothies et frites. Ingrédients frais, bon goût.",
+    "heading": "Notre Menu",
+    "subtitle": "Des ingrédients halal frais dans chaque plat",
+    "beforeTax": "Avant taxes"
+  },
+  "locations": {
+    "title": "Nos Emplacements | Oncle Patate",
+    "description": "Visitez Oncle Patate à nos deux emplacements de Montréal : Chabanel et Côte-des-Neiges. Trouvez notre adresse, nos heures et commandez en ligne.",
+    "heading": "Nos Emplacements",
+    "subtitle": "Deux emplacements pour servir Montréal",
+    "hours": "Heures",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "orderUberEats": "Commander sur UberEats",
+    "orderSkip": "Commander sur SkipTheDishes",
+    "mapsPlaceholder": "Intégration Google Maps",
+    "mapsTodo": "À FAIRE : Remplacer par le vrai lien Google Maps",
+    "chabanel": {
+      "name": "Chabanel",
+      "hours": {
+        "satTue": "Sam–Mar : 16 h – 23 h",
+        "wed": "Mer : 16 h – 00 h",
+        "thuFri": "Jeu–Ven : 16 h – 23 h"
+      }
+    },
+    "cotedeneiges": {
+      "name": "Côte-des-Neiges",
+      "hours": {
+        "daily": "Tous les jours : 11 h 30 – 23 h"
+      }
+    }
+  },
+  "about": {
+    "title": "À Propos | Oncle Patate",
+    "description": "Apprenez-en plus sur Oncle Patate (Uncle Potato), le restaurant de fast-food 100% HALAL préféré de Montréal, servant des burgers frais, des pommes de terre et plus encore.",
+    "heading": "À Propos",
+    "subtitle": "Le Fast-Food Halal Préféré de Montréal",
+    "para1": "Bienvenue chez Oncle Patate — où chaque bouchée est préparée avec soin, chaque ingrédient est certifié 100 % HALAL et chaque visite ressemble à un moment en famille. Né au cœur de Montréal, nous avons voulu prouver que le fast-food peut être à la fois délicieux et préparé avec intégrité.",
+    "para2": "De nos burgers juteux signature et pommes de terre parfaitement cuites au four à nos filets de poulet croustillants, smoothies rafraîchissants et frites dorées, chaque article de notre menu est préparé frais avec des ingrédients de qualité. Nous sommes fiers de servir la communauté montréalaise depuis nos deux emplacements à Chabanel et Côte-des-Neiges.",
+    "para3": "En tant que restaurant fièrement certifié HALAL, nous croyons que tout le monde mérite un accès à une nourriture qui a bon goût et qui correspond à leurs valeurs. Venez nous rendre visite — nous sommes impatients de vous servir.",
+    "visitUs": "Visitez Nos Emplacements",
+    "halalBadge": "Certifié 100% HALAL",
+    "imagePlaceholder": "Intérieur du restaurant Oncle Patate"
+  },
+  "footer": {
+    "copyright": "© 2025 Uncle Potato / Oncle Patate. Tous droits réservés.",
+    "locations": "Emplacements",
+    "delivery": "Commander en Ligne",
+    "follow": "Suivez-Nous",
+    "hours": "Heures"
+  },
+  "notFound": {
+    "title": "Page Introuvable",
+    "message": "Désolé, la page que vous cherchez n'existe pas.",
+    "goHome": "Retour à l'Accueil"
+  },
+  "common": {
+    "halal": "HALAL",
+    "montreal": "Montréal",
+    "newTab": "S'ouvre dans un nouvel onglet"
+  }
+}
