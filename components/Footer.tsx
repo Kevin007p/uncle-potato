@@ -14,11 +14,8 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="lg:col-span-1">
-            {/* TODO: Replace with real logo */}
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-[#f3a42a] rounded-md flex items-center justify-center" aria-hidden="true">
-                <span className="text-[#1a1a20] font-black text-base">U</span>
-              </div>
+              <img src="/images/menu/logo.png" alt="Uncle Potato logo" className="h-10 w-auto" />
               <div>
                 <div className="font-bold text-lg leading-tight">Uncle Potato</div>
                 <div className="text-white/60 text-sm">Oncle Patate</div>

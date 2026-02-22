@@ -22,10 +22,7 @@ export default function Navbar() {
               className="flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-[#f3a42a] rounded-md"
               aria-label={t('home')}
             >
-              {/* TODO: Replace with real logo SVG */}
-              <div className="w-8 h-8 bg-[#f3a42a] rounded-md flex items-center justify-center" aria-hidden="true">
-                <span className="text-[#1a1a20] font-black text-sm">U</span>
-              </div>
+              <img src="/images/menu/logo.png" alt="Uncle Potato logo" className="h-8 w-auto" />
               <span className="text-white font-bold text-lg hidden sm:block">Uncle Potato</span>
             </Link>
 

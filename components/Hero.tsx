@@ -9,16 +9,11 @@ export default function Hero() {
 
   return (
     <section className="relative bg-[#1a1a20] overflow-hidden min-h-[85vh] flex items-center">
-      {/* Background placeholder */}
-      {/* TODO: Replace with real hero image */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a20] via-[#2a2a30] to-[#1a1a20]" aria-hidden="true" />
-      <div
-        className="absolute inset-0 opacity-20"
-        style={{
-          backgroundImage: 'radial-gradient(circle at 30% 50%, #f3a42a 0%, transparent 60%)',
-        }}
-        aria-hidden="true"
-      />
+      {/* Background image */}
+      <div className="absolute inset-0" aria-hidden="true">
+        <img src="/images/hero.jpg" alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-[#1a1a20]/70" />
+      </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -74,18 +69,11 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="hidden lg:block"
           >
-            {/* TODO: Replace with real hero image */}
-            <div
-              className="bg-[#f3a42a] rounded-2xl aspect-square flex items-center justify-center"
-              role="img"
-              aria-label="Placeholder for hero food image"
-            >
-              <div className="text-center text-[#1a1a20]">
-                <div className="text-6xl mb-4" aria-hidden="true">🥔</div>
-                <p className="font-bold text-xl">Hero Image</p>
-                <p className="text-sm mt-1 opacity-70">TODO: Replace with real photo</p>
-              </div>
-            </div>
+            <img
+              src="/images/hero.jpg"
+              alt="Uncle Potato — fresh halal burgers, fries, and more"
+              className="rounded-2xl aspect-square object-cover shadow-2xl"
+            />
           </motion.div>
         </div>
       </div>

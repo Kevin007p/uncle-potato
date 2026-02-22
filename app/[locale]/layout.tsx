@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
       template: '%s | Uncle Potato',
     },
     description: t('description'),
-    icons: { icon: '/favicon.svg' },
+    icons: { icon: '/favicon.ico' },
     alternates: {
       canonical: `https://unclepotato.ca/${locale}`,
       languages: {

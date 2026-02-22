@@ -32,10 +32,12 @@ You need a real `favicon.ico` file. Currently only `public/favicon.svg` exists. 
 The logo appears in two places, both currently showing placeholder text:
 
 **File: `components/Navbar.tsx`** (line ~25)
+
 - Look for: `{/* TODO: Replace with real logo SVG */}`
 - Replace the placeholder `<span>` with your logo `<img>` or inline SVG
 
 **File: `components/Footer.tsx`** (line ~17)
+
 - Look for: `{/* TODO: Replace with real logo */}`
 - Same — replace with your logo
 
@@ -44,10 +46,15 @@ The logo appears in two places, both currently showing placeholder text:
 ### 3. Hero Image
 
 **File: `components/Hero.tsx`** (lines ~13 and ~77)
+
 - Look for: `{/* TODO: Replace with real hero image */}`
 - Replace the brand-colored placeholder box with a real image:
   ```tsx
-  <img src="/images/hero.jpg" alt="Uncle Potato restaurant" className="w-full h-full object-cover" />
+  <img
+    src="/images/hero.jpg"
+    alt="Uncle Potato restaurant"
+    className="w-full h-full object-cover"
+  />
   ```
 - Recommended size: 1920x800 or similar wide aspect ratio
 - Place the image at: **`public/images/hero.jpg`**
@@ -57,21 +64,23 @@ The logo appears in two places, both currently showing placeholder text:
 ### 4. Menu Item Images
 
 **File: `components/MenuItem.tsx`** (line ~23)
+
 - Look for: `{/* TODO: Replace with real image using next/image */}`
 - Replace the Placeholder component with real images
 - Each menu item in `/data/menu.json` has an `image` field pointing to paths like `/images/menu/placeholder-burger.png`
 
 **Images to create and place in `public/images/menu/`:**
 
-| Filename | Used by |
-|----------|---------|
-| `placeholder-burger.png` | Classic Burger, Cheese Burger, Spicy Burger |
-| `placeholder-potato.png` | Loaded Baked Potato, Butter & Herb Potato |
-| `placeholder-chicken.png` | Classic Chicken Tenders, Spicy Chicken Tenders |
+| Filename                   | Used by                                            |
+| -------------------------- | -------------------------------------------------- |
+| `placeholder-burger.png`   | Classic Burger, Cheese Burger, Spicy Burger        |
+| `placeholder-potato.png`   | Loaded Baked Potato, Butter & Herb Potato          |
+| `placeholder-chicken.png`  | Classic Chicken Tenders, Spicy Chicken Tenders     |
 | `placeholder-smoothie.png` | Mango Paradise Smoothie, Strawberry Blast Smoothie |
-| `placeholder-fries.png` | Classic Fries, Loaded Fries |
+| `placeholder-fries.png`    | Classic Fries, Loaded Fries                        |
 
 You can either:
+
 - Keep one image per category (current setup), or
 - Give each item its own image by updating the `image` field in **`data/menu.json`**
 
@@ -82,6 +91,7 @@ Recommended image size: 400x300 or square 400x400.
 ### 5. Gallery Photos
 
 **File: `components/GalleryGrid.tsx`** (line ~42)
+
 - Look for: `{/* TODO: Replace with real food photo */}`
 - There are 6 placeholder boxes in the "Our Food" section on the homepage
 - Replace each with a real food photo
@@ -93,6 +103,7 @@ Recommended image size: 400x300 or square 400x400.
 ### 6. About Page Image
 
 **File: `app/[locale]/about/page.tsx`** (line ~51)
+
 - Look for: `{/* TODO: Replace with real restaurant image */}`
 - Replace the placeholder with a photo of the restaurant interior, team, or food spread
 - Place image at: **`public/images/about.jpg`**
@@ -126,6 +137,7 @@ skipthedishes: 'https://www.skipthedishes.com/TODO-REPLACE-CDN',      // line 11
 ```
 
 To find your links:
+
 - **UberEats:** Search for "Uncle Potato" on ubereats.com and copy each location's page URL
 - **SkipTheDishes:** Search for "Uncle Potato" on skipthedishes.com and copy each location's page URL
 
@@ -136,12 +148,14 @@ To find your links:
 **File: `config/links.ts`** (lines 7 and 12)
 
 Currently empty strings:
+
 ```ts
 googleMapsEmbed: '', // line 7  — Chabanel
 googleMapsEmbed: '', // line 12 — Cote-des-Neiges
 ```
 
 To get embed URLs:
+
 1. Go to [Google Maps](https://maps.google.com)
 2. Search for your restaurant location
 3. Click **Share** → **Embed a map**
@@ -161,6 +175,7 @@ url: 'https://unclepotato.ca', // TODO: Replace with actual domain
 ```
 
 Update this once your domain is confirmed. This URL is also used in:
+
 - **`app/[locale]/layout.tsx`** — `metadataBase` and canonical URLs
 - **`components/JsonLd.tsx`** — structured data `url` field
 - **`public/sitemap.xml`** — all page URLs
@@ -175,6 +190,7 @@ Do a project-wide find-and-replace for `https://unclepotato.ca` when you have th
 **File: `data/menu.json`**
 
 The current menu items are sample data from the PRD. Review and update:
+
 - Item names (EN and FR)
 - Descriptions (EN and FR)
 - Prices (currently placeholder values like $12.99, $14.49, etc.)
@@ -188,6 +204,7 @@ The current menu items are sample data from the PRD. Review and update:
 **Files: `messages/en.json` and `messages/fr.json`**
 
 Review all text strings, especially:
+
 - **Hero tagline** (`home.heroTagline`): Currently "Montreal's Favorite Fast Food" — marked with TODO to replace with your final tagline
 - **About page copy** (`about.para1`, `about.para2`, `about.para3`): AI-generated draft copy, review for accuracy
 - **Copyright year** (`footer.copyright`): Currently says 2025
@@ -196,19 +213,19 @@ Review all text strings, especially:
 
 ## Summary Checklist
 
-| # | Task | File(s) to edit |
-|---|------|----------------|
-| 1 | Add favicon.ico | `public/favicon.ico` |
-| 2 | Add logo | `components/Navbar.tsx`, `components/Footer.tsx` |
-| 3 | Add hero image | `public/images/hero.jpg`, `components/Hero.tsx` |
-| 4 | Add menu item photos | `public/images/menu/`, `components/MenuItem.tsx` |
-| 5 | Add gallery photos | `public/images/gallery/`, `components/GalleryGrid.tsx` |
-| 6 | Add about page photo | `public/images/about.jpg`, `app/[locale]/about/page.tsx` |
-| 7 | Add OG social image | `public/images/og-placeholder.png` |
-| 8 | Add UberEats/Skip links | `config/links.ts` |
-| 9 | Add Google Maps embeds | `config/links.ts` |
-| 10 | Confirm domain URL | `config/links.ts` + find-replace `unclepotato.ca` |
-| 11 | Review/update menu data | `data/menu.json` |
-| 12 | Review/update text copy | `messages/en.json`, `messages/fr.json` |
+| #   | Task                    | File(s) to edit                                          |
+| --- | ----------------------- | -------------------------------------------------------- |
+| 1   | Add favicon.ico         | `public/favicon.ico`                                     |
+| 2   | Add logo                | `components/Navbar.tsx`, `components/Footer.tsx`         |
+| 3   | Add hero image          | `public/images/hero.jpg`, `components/Hero.tsx`          |
+| 4   | Add menu item photos    | `public/images/menu/`, `components/MenuItem.tsx`         |
+| 5   | Add gallery photos      | `public/images/gallery/`, `components/GalleryGrid.tsx`   |
+| 6   | Add about page photo    | `public/images/about.jpg`, `app/[locale]/about/page.tsx` |
+| 7   | Add OG social image     | `public/images/og-placeholder.png`                       |
+| 8   | Add UberEats/Skip links | `config/links.ts`                                        |
+| 9   | Add Google Maps embeds  | `config/links.ts`                                        |
+| 10  | Confirm domain URL      | `config/links.ts` + find-replace `unclepotato.ca`        |
+| 11  | Review/update menu data | `data/menu.json`                                         |
+| 12  | Review/update text copy | `messages/en.json`, `messages/fr.json`                   |
 
 Once all items are done, run `npm run build` to verify the static export still builds cleanly, then deploy to Vercel.
